@@ -1,0 +1,8 @@
+const accountid = 1234;
+let accountEmail = "saumya@yahoo.com";  //block scoped // no weird hosting behaviour // cannot be redeclared
+
+var accountpassword = "12345";
+// accountid = 2; not allowed as id was constant
+
+console.log(accountid);
+console.table([accountEmail,accountid,accountpassword]);
